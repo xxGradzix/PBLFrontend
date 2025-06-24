@@ -1,38 +1,215 @@
-.App {
-  text-align: center;
+/* Custom component styles */
+.recipe-card {
+  @apply bg-white rounded-xl shadow-lg overflow-hidden hover-lift cursor-pointer;
+  transition: all 0.3s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.recipe-card:hover {
+  @apply shadow-2xl;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.recipe-image {
+  @apply w-full h-48 object-cover;
+}
+
+.recipe-content {
+  @apply p-6;
+}
+
+.recipe-title {
+  @apply text-xl font-bold text-gray-800 mb-2 text-center;
+}
+
+.recipe-description {
+  @apply text-gray-600 text-sm mb-4 text-center;
+}
+
+.recipe-nutrition {
+  @apply flex justify-between items-center text-sm bg-gray-50 rounded-lg p-3;
+}
+
+.nutrition-item {
+  @apply flex flex-col items-center bg-white rounded-lg p-2 min-w-[60px] shadow-sm;
+}
+
+.nutrition-label {
+  @apply text-xs text-gray-500 uppercase tracking-wide;
+}
+
+.nutrition-value {
+  @apply font-semibold text-gray-800;
+}
+
+.dietary-badge {
+  @apply inline-block px-2 py-1 text-xs rounded-full font-medium;
+}
+
+.badge-keto {
+  @apply bg-purple-100 text-purple-800;
+}
+
+.badge-vegetarian {
+  @apply bg-green-100 text-green-800;
+}
+
+.badge-vegan {
+  @apply bg-emerald-100 text-emerald-800;
+}
+
+.badge-gluten-free {
+  @apply bg-yellow-100 text-yellow-800;
+}
+
+.badge-high-protein {
+  @apply bg-blue-100 text-blue-800;
+}
+
+.badge-low-carb {
+  @apply bg-red-100 text-red-800;
+}
+
+/* Form styling */
+.form-input {
+  @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all text-center;
+}
+
+.form-input:focus {
+  @apply shadow-lg;
+}
+
+.form-label {
+  @apply block text-sm font-medium text-gray-700 mb-2 text-center;
+}
+
+.btn-primary {
+  @apply bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 hover-lift;
+}
+
+.btn-secondary {
+  @apply bg-white hover:bg-gray-50 text-green-600 font-medium py-3 px-6 rounded-lg border border-green-300 transition-all duration-200 hover-lift;
+}
+
+.btn-accent {
+  @apply bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 hover-lift;
+}
+
+/* Navigation */
+.nav-link {
+  @apply text-gray-600 hover:text-green-600 font-medium transition-colors duration-200;
+}
+
+.nav-link.active {
+  @apply text-green-600;
+}
+
+/* Hero section */
+.hero-section {
+  @apply relative bg-gradient-to-r from-green-50 to-emerald-50 py-20 px-6;
+}
+
+.hero-content {
+  @apply max-w-4xl mx-auto text-center;
+}
+
+.hero-title {
+  @apply text-5xl md:text-6xl font-bold text-gray-800 mb-6 text-center;
+}
+
+.hero-subtitle {
+  @apply text-xl text-gray-600 mb-8 max-w-2xl mx-auto text-center;
+}
+
+/* Media section */
+.media-item {
+  @apply block bg-white rounded-lg shadow-md overflow-hidden hover-lift text-center;
+}
+
+.media-item img {
+  @apply w-full h-32 object-cover;
+}
+
+.media-item h4 {
+  @apply p-4 text-sm font-medium text-gray-800 text-center;
+}
+
+.media-gallery {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+/* Loading states */
+.loading {
+  @apply flex items-center justify-center p-8;
+}
+
+.loading-spinner {
+  @apply animate-spin rounded-full h-12 w-12 border-b-2 border-green-500;
+}
+
+/* Centered content fixes */
+.section-title {
+  @apply text-3xl md:text-4xl font-bold text-gray-800 mb-4 text-center;
+}
+
+.section-subtitle {
+  @apply text-lg text-gray-600 max-w-3xl mx-auto text-center mb-8;
+}
+
+.feature-card {
+  @apply text-center p-8 bg-gradient-to-br from-white to-gray-50 rounded-2xl hover-lift shadow-lg;
+}
+
+.feature-icon {
+  @apply text-5xl mb-4 text-center;
+}
+
+.feature-title {
+  @apply text-xl font-bold text-gray-800 mb-4 text-center;
+}
+
+.feature-description {
+  @apply text-gray-600 text-center;
+}
+
+/* Enhanced macro indicators */
+.macro-bar-container {
+  @apply bg-white rounded-lg p-4 shadow-sm border border-gray-100;
+}
+
+.macro-label {
+  @apply text-sm font-medium text-gray-700 mb-2 text-center;
+}
+
+.macro-value {
+  @apply text-lg font-bold text-gray-800 text-center;
+}
+
+.health-score-container {
+  @apply bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-4 border border-green-200;
+}
+
+.health-score-title {
+  @apply text-sm font-medium text-gray-700 mb-2 text-center;
+}
+
+.health-score-value {
+  @apply text-2xl font-bold text-center;
+}
+
+/* Responsive utilities */
+@media (max-width: 640px) {
+  .hero-title {
+    @apply text-4xl text-center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .recipe-card {
+    @apply mx-4;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .section-title {
+    @apply text-2xl text-center;
+  }
+  
+  .form-input {
+    @apply text-left; /* Left align on mobile for better UX */
   }
 }

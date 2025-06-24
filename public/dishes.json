@@ -1,68 +1,152 @@
 [
   {
-    "name": "Pancakes",
-    "ingredients": ["eggs", "milk", "flour", "sugar", "butter"],
-    "instructions": "Mix flour, milk, eggs, and sugar until smooth. Heat a pan, melt butter, pour batter and cook until golden on both sides. Serve with fresh fruit.",
-    "nutrition": {
-      "calories": 350,
-      "protein": 8,
-      "carbs": 45,
-      "fat": 15
-    }
-  },
-  {
-    "name": "Tomato Pasta",
-    "ingredients": ["pasta", "tomatoes", "garlic", "onion", "butter"],
-    "instructions": "Cook pasta until al dente. Sauté onion and garlic in butter, add chopped tomatoes and simmer into sauce. Toss pasta in sauce and serve with grated cheese.",
+    "name": "Rainbow Veggie Bowl",
+    "ingredients": ["quinoa", "avocado", "bell pepper", "carrots", "spinach", "chickpeas"],
+    "instructions": "Cook quinoa until fluffy. Arrange fresh spinach, diced bell peppers, shredded carrots, sliced avocado, and chickpeas over quinoa. Drizzle with tahini dressing and serve.",
     "nutrition": {
       "calories": 420,
-      "protein": 12,
-      "carbs": 60,
-      "fat": 14
-    }
+      "protein": 15,
+      "carbs": 45,
+      "fat": 18
+    },
+    "dietary": ["vegetarian", "vegan", "gluten-free", "high-protein", "dairy-free"],
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+    "prepTime": "15 min",
+    "difficulty": "Easy"
   },
   {
-    "name": "Cheesy Scrambled Eggs",
-    "ingredients": ["eggs", "milk", "cheese", "butter"],
-    "instructions": "Beat eggs with milk. Melt butter in a pan, pour egg mixture and gently scramble until almost set. Sprinkle cheese, finish cooking and serve hot.",
+    "name": "Grilled Salmon with Quinoa",
+    "ingredients": ["salmon", "quinoa", "asparagus", "lemon", "garlic", "olive oil"],
+    "instructions": "Season salmon with herbs and grill until flaky. Cook quinoa with vegetable broth. Steam asparagus until tender. Serve salmon over quinoa with asparagus and lemon wedge.",
     "nutrition": {
-      "calories": 290,
-      "protein": 16,
-      "carbs": 2,
-      "fat": 24
-    }
+      "calories": 485,
+      "protein": 35,
+      "carbs": 32,
+      "fat": 22
+    },
+    "dietary": ["high-protein", "gluten-free", "keto-friendly", "dairy-free", "paleo"],
+    "image": "https://images.unsplash.com/photo-1547592180-85f173990554",
+    "prepTime": "25 min",
+    "difficulty": "Medium"
   },
   {
-    "name": "Chicken Stir Fry",
-    "ingredients": ["chicken", "bell pepper", "onion", "garlic", "carrots"],
-    "instructions": "Slice chicken and vegetables. Stir-fry garlic and onion, add chicken until cooked, toss in vegetables and soy sauce. Serve over rice.",
+    "name": "Tropical Smoothie Bowl",
+    "ingredients": ["banana", "mango", "coconut", "chia seeds", "blueberries", "granola"],
+    "instructions": "Blend frozen banana and mango with coconut milk until smooth. Pour into bowl and top with fresh blueberries, chia seeds, coconut flakes, and granola.",
+    "nutrition": {
+      "calories": 340,
+      "protein": 8,
+      "carbs": 58,
+      "fat": 12
+    },
+    "dietary": ["vegetarian", "vegan", "gluten-free", "dairy-free"],
+    "image": "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg",
+    "prepTime": "10 min",
+    "difficulty": "Easy"
+  },
+  {
+    "name": "Mediterranean Avocado Toast",
+    "ingredients": ["avocado", "ezekiel bread", "tomatoes", "feta cheese", "olive oil", "herbs"],
+    "instructions": "Toast ezekiel bread until golden. Mash avocado with lemon juice and spread on toast. Top with cherry tomatoes, crumbled feta, fresh herbs, and drizzle with olive oil.",
+    "nutrition": {
+      "calories": 320,
+      "protein": 12,
+      "carbs": 28,
+      "fat": 20
+    },
+    "dietary": ["vegetarian", "high-protein"],
+    "image": "https://images.unsplash.com/photo-1638720772346-b745bcd72f5f",
+    "prepTime": "8 min",
+    "difficulty": "Easy"
+  },
+  {
+    "name": "Keto Chicken Stir Fry",
+    "ingredients": ["chicken", "broccoli", "bell pepper", "zucchini", "coconut oil", "garlic"],
+    "instructions": "Heat coconut oil in wok. Stir-fry chicken until cooked through. Add vegetables and garlic, cook until tender-crisp. Season with herbs and serve hot.",
+    "nutrition": {
+      "calories": 380,
+      "protein": 32,
+      "carbs": 8,
+      "fat": 24
+    },
+    "dietary": ["keto", "low-carb", "high-protein", "gluten-free", "dairy-free", "paleo"],
+    "image": "https://images.unsplash.com/photo-1641301547846-2cf73f58fdca",
+    "prepTime": "20 min",
+    "difficulty": "Medium"
+  },
+  {
+    "name": "Power Green Smoothie",
+    "ingredients": ["spinach", "banana", "apple", "ginger", "lemon", "coconut water"],
+    "instructions": "Blend fresh spinach, banana, apple, fresh ginger, lemon juice and coconut water until smooth. Add ice if desired. Serve immediately for best nutrition.",
+    "nutrition": {
+      "calories": 185,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 1
+    },
+    "dietary": ["vegan", "gluten-free", "low-fat", "dairy-free", "paleo"],
+    "image": "https://images.unsplash.com/photo-1597362925123-77861d3fbac7",
+    "prepTime": "5 min",
+    "difficulty": "Easy"
+  },
+  {
+    "name": "Protein-Packed Lentil Salad",
+    "ingredients": ["lentils", "cucumber", "tomatoes", "red onion", "parsley", "olive oil"],
+    "instructions": "Cook lentils until tender, drain and cool. Dice cucumber, tomatoes, and red onion. Mix with lentils and fresh parsley. Dress with olive oil and lemon vinaigrette.",
+    "nutrition": {
+      "calories": 295,
+      "protein": 18,
+      "carbs": 40,
+      "fat": 8
+    },
+    "dietary": ["vegan", "vegetarian", "high-protein", "gluten-free", "dairy-free"],
+    "image": "https://images.pexels.com/photos/2751755/pexels-photo-2751755.jpeg",
+    "prepTime": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "name": "Healthy Meal Prep Bowls",
+    "ingredients": ["brown rice", "grilled chicken", "sweet potato", "broccoli", "hummus"],
+    "instructions": "Prep components separately: cook brown rice, grill chicken breast, roast sweet potato cubes, steam broccoli. Assemble in containers with hummus for a complete meal.",
     "nutrition": {
       "calories": 450,
       "protein": 35,
-      "carbs": 40,
+      "carbs": 48,
+      "fat": 12
+    },
+    "dietary": ["high-protein", "gluten-free", "dairy-free"],
+    "image": "https://images.pexels.com/photos/8900036/pexels-photo-8900036.jpeg",
+    "prepTime": "45 min",
+    "difficulty": "Medium"
+  },
+  {
+    "name": "Cauliflower Rice Stir Fry",
+    "ingredients": ["cauliflower", "eggs", "bell pepper", "peas", "carrots", "soy sauce"],
+    "instructions": "Rice cauliflower in food processor. Scramble eggs and set aside. Stir-fry vegetables, add cauliflower rice, then eggs. Season with soy sauce and serve hot.",
+    "nutrition": {
+      "calories": 220,
+      "protein": 14,
+      "carbs": 18,
+      "fat": 10
+    },
+    "dietary": ["keto", "low-carb", "vegetarian", "gluten-free", "high-protein"],
+    "image": "https://images.unsplash.com/photo-1579113800032-c38bd7635818",
+    "prepTime": "20 min",
+    "difficulty": "Medium"
+  },
+  {
+    "name": "Chia Pudding Parfait",
+    "ingredients": ["chia seeds", "almond milk", "vanilla", "berries", "nuts", "honey"],
+    "instructions": "Mix chia seeds with almond milk and vanilla. Refrigerate overnight until thick. Layer in glass with fresh berries and nuts. Drizzle with honey before serving.",
+    "nutrition": {
+      "calories": 280,
+      "protein": 9,
+      "carbs": 32,
       "fat": 15
-    }
-  },
-  {
-    "name": "Avocado Yogurt Dip",
-    "ingredients": ["avocado", "yogurt", "garlic", "lemon"],
-    "instructions": "Mash avocado, mix with yogurt, minced garlic, and lemon juice. Season with salt and pepper. Serve with veggies or crackers.",
-    "nutrition": {
-      "calories": 180,
-      "protein": 5,
-      "carbs": 10,
-      "fat": 14
-    }
-  },
-  {
-    "name": "Banana Oatmeal",
-    "ingredients": ["oats", "milk", "banana", "honey"],
-    "instructions": "Cook oats in milk until creamy. Slice banana on top, drizzle honey and serve warm.",
-    "nutrition": {
-      "calories": 310,
-      "protein": 7,
-      "carbs": 58,
-      "fat": 5
-    }
+    },
+    "dietary": ["vegetarian", "vegan", "gluten-free", "dairy-free", "high-protein"],
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+    "prepTime": "10 min + overnight",
+    "difficulty": "Easy"
   }
 ]
