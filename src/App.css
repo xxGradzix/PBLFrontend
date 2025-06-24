@@ -77,16 +77,15 @@
   @apply shadow-lg;
 }
 
-.form-label {
-  @apply block text-sm font-medium text-gray-700 mb-2 text-center;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.btn-primary {
-  @apply bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 hover-lift;
-}
-
-.btn-secondary {
-  @apply bg-white hover:bg-gray-50 text-green-600 font-medium py-3 px-6 rounded-lg border border-green-300 transition-all duration-200 hover-lift;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 .btn-accent {
@@ -109,6 +108,33 @@
 
 .hero-content {
   @apply max-w-4xl mx-auto text-center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 24px;
+  padding: 16px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+}
+
+.media-gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.media-item {
+  min-width: 160px;
+  flex: 0 0 auto;
 }
 
 .hero-title {
@@ -200,15 +226,15 @@
   .hero-title {
     @apply text-4xl text-center;
   }
-  
+
   .recipe-card {
     @apply mx-4;
   }
-  
+
   .section-title {
     @apply text-2xl text-center;
   }
-  
+
   .form-input {
     @apply text-left; /* Left align on mobile for better UX */
   }
