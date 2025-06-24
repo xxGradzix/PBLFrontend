@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Pancakes",
+    "ingredients": ["eggs", "milk", "flour", "sugar", "butter"],
+    "instructions": "Mix flour, milk, eggs, and sugar until smooth. Heat a pan, melt butter, pour batter and cook until golden on both sides. Serve with fresh fruit.",
+    "nutrition": {
+      "calories": 350,
+      "protein": 8,
+      "carbs": 45,
+      "fat": 15
+    }
+  },
+  {
+    "name": "Tomato Pasta",
+    "ingredients": ["pasta", "tomatoes", "garlic", "onion", "butter"],
+    "instructions": "Cook pasta until al dente. Sauté onion and garlic in butter, add chopped tomatoes and simmer into sauce. Toss pasta in sauce and serve with grated cheese.",
+    "nutrition": {
+      "calories": 420,
+      "protein": 12,
+      "carbs": 60,
+      "fat": 14
+    }
+  },
+  {
+    "name": "Cheesy Scrambled Eggs",
+    "ingredients": ["eggs", "milk", "cheese", "butter"],
+    "instructions": "Beat eggs with milk. Melt butter in a pan, pour egg mixture and gently scramble until almost set. Sprinkle cheese, finish cooking and serve hot.",
+    "nutrition": {
+      "calories": 290,
+      "protein": 16,
+      "carbs": 2,
+      "fat": 24
+    }
+  },
+  {
+    "name": "Chicken Stir Fry",
+    "ingredients": ["chicken", "bell pepper", "onion", "garlic", "carrots"],
+    "instructions": "Slice chicken and vegetables. Stir-fry garlic and onion, add chicken until cooked, toss in vegetables and soy sauce. Serve over rice.",
+    "nutrition": {
+      "calories": 450,
+      "protein": 35,
+      "carbs": 40,
+      "fat": 15
+    }
+  },
+  {
+    "name": "Avocado Yogurt Dip",
+    "ingredients": ["avocado", "yogurt", "garlic", "lemon"],
+    "instructions": "Mash avocado, mix with yogurt, minced garlic, and lemon juice. Season with salt and pepper. Serve with veggies or crackers.",
+    "nutrition": {
+      "calories": 180,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 14
+    }
+  },
+  {
+    "name": "Banana Oatmeal",
+    "ingredients": ["oats", "milk", "banana", "honey"],
+    "instructions": "Cook oats in milk until creamy. Slice banana on top, drizzle honey and serve warm.",
+    "nutrition": {
+      "calories": 310,
+      "protein": 7,
+      "carbs": 58,
+      "fat": 5
+    }
+  }
+]
