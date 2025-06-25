@@ -26,35 +26,35 @@ export default function MediaSection() {
         setTimeout(() => {
             const mockMedia = [
                 {
-                    title: "10 Minute Healthy Breakfast Ideas",
-                    url: "https://youtube.com/watch?v=example1",
+                    title: "How to Build, Maintain & Repair Gut Health",
+                    url: "https://www.youtube.com/watch?v=ouCWNRvPk20",
                     type: "youtube"
                 },
                 {
-                    title: "The Science of Nutrition Podcast",
-                    url: "https://spotify.com/podcast/example2",
-                    type: "spotify"
-                },
-                {
-                    title: "Meal Prep for Beginners",
-                    url: "https://youtube.com/watch?v=example3",
+                    title: "What to eat to feel better",
+                    url: "https://www.youtube.com/watch?v=kXfyEm7y9rA",
                     type: "youtube"
                 },
                 {
-                    title: "Plant-Based Nutrition Guide",
-                    url: "https://youtube.com/watch?v=example4",
+                    title: "What is a balanced diet?",
+                    url: "https://www.youtube.com/watch?v=81G22t2UHxA",
                     type: "youtube"
                 },
                 {
-                    title: "Healthy Living Podcast",
-                    url: "https://spotify.com/podcast/example5",
-                    type: "spotify"
-                },
-                {
-                    title: "Quick & Healthy Dinner Ideas",
-                    url: "https://youtube.com/watch?v=example6",
+                    title: "Food for fat loss",
+                    url: "https://www.youtube.com/watch?v=zVvHUbUMgVc",
                     type: "youtube"
                 }
+                // {
+                //     title: "Healthy Living Podcast",
+                //     url: "https://spotify.com/podcast/example5",
+                //     type: "spotify"
+                // },
+                // {
+                //     title: "Quick & Healthy Dinner Ideas",
+                //     url: "https://youtube.com/watch?v=example6",
+                //     type: "youtube"
+                // }
             ];
             setMedia(mockMedia);
             setLoading(false);
@@ -90,7 +90,9 @@ export default function MediaSection() {
                                     <img 
                                         src={getThumbnail(item)} 
                                         alt={item.title} 
-                                        className="w-full h-32 object-cover"
+                                        // className="w-full h-32 object-cover"
+                                        width={160} height={90}
+                                        className="mx-auto"
                                     />
                                     <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                                         <div className="text-white text-2xl">
